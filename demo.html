@@ -19,6 +19,17 @@
         h1 {
             text-align: center;
         }
+        iframe{
+            align-content: center;
+        }
+        input[type=text] {
+            width: 50%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
     </style>
 </head>
 <body>
@@ -28,15 +39,12 @@
         Sapiente ea fuga similique dignissimos in exercitationem saepe laboriosam praesentium esse nulla, veniam aut natus quisquam quibusdam magnam deserunt eius accusantium nobis.</p>
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="Demo up/home.html">Home</a></li>
             <li><a href="#aboutus">About Us</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section id="home">
-        <h4>Home</h4>
-        <p>Sakn si Angdas ay anak Buangan ed tagpaya , isdi sann baey mi ya man tamtambyan mi si inagew ya nilabi.</p>
-    </section>
+
     <section id="aboutus">
         <h4>About Us</h4>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus minus laboriosam, eum fuga maxime tempora facere reprehenderit, unde tempore veritatis autem quis 
@@ -48,15 +56,21 @@
     </section>
 
     <figure>
-        <img src="Demo up/555837.jpg" alt="" height="200" width="300"> 
-        <figcaption>This is a smol picture</figcaption>
+        <img src="Demo up/555837.jpg" alt="" height="200" width="300">
     </figure>
+    <p>This is the image of <abbr title="The Hero"><cite>Baymax</cite></abbr></p>
 
     <form>
-        <label for="name"><strong>Name:</strong></label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="pass"><strong>Password:</strong></label><br>
-        <input type="password" id="pass" name="pass"><br>
+        <label ><b>Name:</b></label> <br>
+        <input type="text" name="name" placeholder="Name" size="15" required /><br>
+        <label ><b>Number:</b></label> <br>
+        <input type="text" name="num" placeholder="Number" size="15" value="+69" required /> <br>
+        <label><b>email:</b></label> <br>
+        <input type="text" name="email"
+        placeholder="email" size="15" 
+        required /> <br>
+        <label><b>password:</b></label> <br>
+        <input type="text" name="pass" placeholder="password" size="15" required/> <br>
     </form>
 
     <form>
@@ -108,6 +122,9 @@
         </video>
     </form>
 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15265.369964457299!2d120.85945171053763!3d16.957695493848387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391d566ea1a0b15%3A0x3e83949cfc130365!2sGuinzadan%20Sur%2C%20Bauko%2C%20Mountain%20Province!5e0!3m2!1sen!2sph!4v1706849120109!5m2!1sen!2sph" width="600" height="450" style="border:2px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    
     <footer>
         <p>All Rights Reserved</p>
     </footer>
