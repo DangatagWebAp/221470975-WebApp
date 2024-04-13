@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="demo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Demo</title>
+    <style>
+        table, th, td {
+    border: 1px solid black;
+}
+
+footer {
+    text-align: center;
+}
+
+video {
+    border: 1px solid black;
+}
+h1 {
+    text-align: center;
+    color: burlywood;
+}
+iframe{
+    align-content: center;
+}
+input[type=text] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+        video {
+            border: 1px solid black;
+            margin-left: 50px;
+        }
+        h1 {
+            text-align: center;
+        }
+        iframe{
+            align-content: center;
+        }
+        input[type=text] {
+            width: 50%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+        }
+        img{
+            border-radius: 50%;
+        }
+        body{
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>Nablo lee p. Demo</header>
+    <h1>Link Demo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Sapiente ea fuga similique dignissimos in exercitationem saepe laboriosam praesentium esse nulla, veniam aut natus quisquam quibusdam magnam deserunt eius accusantium nobis.</p>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="aboutus">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio laborum nobis rerum possimus, culpa magni suscipit molestias nesciunt? Perferendis maxime quos molestias nulla, delectus accusantium dolores atque eos quae aperiam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus minus laboriosam, eum fuga maxime tempora facere reprehenderit, unde tempore veritatis autem quis 
+            voluptatibus nam, accusantium non? Commodi quasi suscipit libero.</p>
+    </section>
+    <section id="contact">
+        <h4>Contact</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum nam autem atque suscipit quos excepturi quasi, dicta tenetur rerum porro consequuntur tempora, nostrum corporis sunt, voluptas nemo quia esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel cum corporis odio impedit ipsam distinctio ad expedita accusantium recusandae! Harum hic mollitia exercitationem quaerat iste. Nesciunt quasi ut doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eius enim quam soluta minus, quibusdam maiores perferendis harum voluptate architecto modi, excepturi mollitia, voluptatum temporibus exercitationem ex accusamus magni quidem!</p>
+    </section>
+
+    <figure>
+        <img src="555837.jpg" alt="" height="200" width="300"> <br>
+        <input type="button" value="Click me" onclick="alert ('Practice')">
+    </figure>
+    <p>This is the image of <abbr title="The Hero">Baymax</abbr></p>
+
+    <form>
+        <label ><b>Name:</b></label> <br>
+        <input type="text" name="name" placeholder="Name" size="15" required /> <br>
+        <label ><b>Number:</b></label> <br>
+        <input type="text" name="num" placeholder="Number" size="15" value="+69" required /> <br>
+        <label><b>email:</b></label> <br>
+        <input type="text" name="email"
+        placeholder="email" size="15" 
+        required /> <br>
+        <label><b>password:</b></label> <br>
+        <input type="text" name="pass" placeholder="password" size="15" required/> <br>
+        
+    </form>
+
+    <form>
+        <label><strong>Gender:</strong></label>
+        <input type="radio" value="male" id="male" name="gender">
+        <label for="male"><strong>Male</strong></label>
+        <input type="radio" value="female" id="female" name="gender">
+        <label for="female"><strong>Female</strong></label><br>
+    </form>
+
+    <form>
+        <h4><label for="condition"><strong>Terms and Condition</strong></label>
+        <input type="checkbox" name="condition" id="condition"></h4>
+        <input type="submit" value="Submit">
+    </form>
+    
+    <form>
+        <table style="width:100%">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Jhon</td>
+                <td>25</td>
+                <td>New York</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>30</td>
+                <td>Los Angeles</td>
+            </tr>
+        </table>
+    </form>
+
+    <form>
+        <audio controls>
+            <source src="HeySoulSister.mp3" type="audio/mp3">
+        </audio>
+    </form>
+
+    <form>
+        <video width="320" height="240" controls>
+            <source src="Theperfectpizza.mp4" type="video/mp4">
+        </video>
+    </form>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15265.369964457299!2d120.85945171053763!3d16.957695493848387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391d566ea1a0b15%3A0x3e83949cfc130365!2sGuinzadan%20Sur%2C%20Bauko%2C%20Mountain%20Province!5e0!3m2!1sen!2sph!4v1706849120109!5m2!1sen!2sph"
+     width="600" height="450" style="border:2px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+    <footer>
+        <p>All Rights Reserved</p>
+    </footer>
+</body>
