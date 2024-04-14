@@ -1294,7 +1294,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/piic.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1900,6 +1900,7 @@ header .logo a {
 }
 .popup-modal .media {
 	position: relative;
+
 }
 .popup-modal img {
 	vertical-align: bottom;
@@ -1959,7 +1960,7 @@ header .logo a {
 	background: #cc005f;
 	border: none;
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
 	.popup-modal {
 		width: auto;
 		margin: 0 20px;
@@ -2095,7 +2096,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background-image: url(m-salad.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
